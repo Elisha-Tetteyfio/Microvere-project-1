@@ -19,23 +19,29 @@ form {
     display: block;
     margin-bottom: 1em;
     color: white;
+    text-align: left;
 }
-/* select, textarea 
-.form-control input,
-.form-control select,
+
 .form-control textarea {
     border: 1px solid #777;
     border-radius: 2px;
     font-family: inherit;
     padding: 10px;
     display: block;
+    width: 95%;
+    height: 5em;
+}
+
+
+.form-control input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    text-align: left;
+}
+#name, #email, #age, #role{
     width: 100%;
     height: 2em;
-}
-*/
-.form-control input[type="checkbox"] {
-    display: inline-block;
-    width: auto;
+    margin-bottom: 2em;
 }
 button {
     background-color: #05c46b;
